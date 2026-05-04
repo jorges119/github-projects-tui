@@ -1,6 +1,6 @@
 # ghtui
 
-[![CI](https://github.com/jhermoso/ghtui/actions/workflows/ci.yml/badge.svg)](https://github.com/jhermoso/ghtui/actions/workflows/ci.yml)
+[![CI](https://github.com/jorges119/github-projects-tui/actions/workflows/ci.yml/badge.svg)](https://github.com/jorges119/github-projects-tui/actions/workflows/ci.yml)
 
 A terminal UI for browsing and managing GitHub Projects, built with [Bubble Tea](https://github.com/charmbracelet/bubbletea).
 
@@ -96,78 +96,78 @@ The `GHTUI_CLIENT_ID` environment variable takes precedence over the config file
 
 Press `1`–`9` from anywhere (except edit mode) to jump directly to a filter field.
 
-| Key | Field      | Type     |
-|-----|------------|----------|
-| `1` | Org        | dropdown |
-| `2` | Project    | dropdown |
-| `3` | Iteration  | dropdown |
-| `4` | Status     | dropdown |
-| `5` | Type       | dropdown (all / issue / pr) |
-| `6` | Assignee   | text     |
-| `7` | Label      | text     |
-| `8` | Title      | text     |
-| `9` | Desc       | text     |
+| Key | Field     | Type                        |
+| --- | --------- | --------------------------- |
+| `1` | Org       | dropdown                    |
+| `2` | Project   | dropdown                    |
+| `3` | Iteration | dropdown                    |
+| `4` | Status    | dropdown                    |
+| `5` | Type      | dropdown (all / issue / pr) |
+| `6` | Assignee  | text                        |
+| `7` | Label     | text                        |
+| `8` | Title     | text                        |
+| `9` | Desc      | text                        |
 
 **In the filter bar:**
 
-| Key | Action |
-|-----|--------|
-| `tab` / `h` / `l` | Next / previous field |
-| `j` / `k` | Cycle dropdown value |
-| `enter` | Apply filters and return to list |
-| `esc` | Return to list without applying |
+| Key               | Action                           |
+| ----------------- | -------------------------------- |
+| `tab` / `h` / `l` | Next / previous field            |
+| `j` / `k`         | Cycle dropdown value             |
+| `enter`           | Apply filters and return to list |
+| `esc`             | Return to list without applying  |
 
 ### Issue List
 
-| Key | Action |
-|-----|--------|
-| `j` / `k` | Navigate down / up |
-| `gg` | Jump to top |
-| `G` | Jump to bottom |
-| `ctrl+d` / `ctrl+u` | Half-page down / up |
-| `enter` | Open detail pane |
-| `e` | Edit issue |
-| `s` | Quick-change project status |
-| `o` | Open issue in browser |
-| `r` | Refresh items from GitHub |
-| `tab` / `f` | Jump to filter bar |
-| `1`–`9` | Jump to filter field |
+| Key                 | Action                      |
+| ------------------- | --------------------------- |
+| `j` / `k`           | Navigate down / up          |
+| `gg`                | Jump to top                 |
+| `G`                 | Jump to bottom              |
+| `ctrl+d` / `ctrl+u` | Half-page down / up         |
+| `enter`             | Open detail pane            |
+| `e`                 | Edit issue                  |
+| `s`                 | Quick-change project status |
+| `o`                 | Open issue in browser       |
+| `r`                 | Refresh items from GitHub   |
+| `tab` / `f`         | Jump to filter bar          |
+| `1`–`9`             | Jump to filter field        |
 
 ### Detail Pane
 
-| Key | Action |
-|-----|--------|
-| `j` / `k` | Scroll down / up |
-| `ctrl+d` / `ctrl+u` | Half-page down / up |
-| `g` / `G` | Top / bottom |
-| `e` | Edit issue |
-| `s` | Quick-change project status |
-| `o` | Open issue in browser |
-| `esc` / `q` | Return to list |
+| Key                 | Action                      |
+| ------------------- | --------------------------- |
+| `j` / `k`           | Scroll down / up            |
+| `ctrl+d` / `ctrl+u` | Half-page down / up         |
+| `g` / `G`           | Top / bottom                |
+| `e`                 | Edit issue                  |
+| `s`                 | Quick-change project status |
+| `o`                 | Open issue in browser       |
+| `esc` / `q`         | Return to list              |
 
 ### Edit Mode
 
-| Key | Action |
-|-----|--------|
+| Key                 | Action                                        |
+| ------------------- | --------------------------------------------- |
 | `tab` / `shift+tab` | Next / previous field (Title → Body → Status) |
-| `h` / `l` | Cycle status (when Status field is focused) |
-| `ctrl+s` | Save changes to GitHub |
-| `esc` | Cancel and return to detail |
+| `h` / `l`           | Cycle status (when Status field is focused)   |
+| `ctrl+s`            | Save changes to GitHub                        |
+| `esc`               | Cancel and return to detail                   |
 
 ### Quick Status Picker
 
-| Key | Action |
-|-----|--------|
-| `j` / `k` | Navigate options |
-| `enter` | Apply selected status |
-| `esc` / `q` | Cancel |
+| Key         | Action                |
+| ----------- | --------------------- |
+| `j` / `k`   | Navigate options      |
+| `enter`     | Apply selected status |
+| `esc` / `q` | Cancel                |
 
 ### Global
 
-| Key | Action |
-|-----|--------|
-| `?` | Toggle help overlay |
-| `ctrl+c` | Quit |
+| Key      | Action              |
+| -------- | ------------------- |
+| `?`      | Toggle help overlay |
+| `ctrl+c` | Quit                |
 
 ## Token Storage
 
